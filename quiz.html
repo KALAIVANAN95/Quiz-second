@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>JavaScript Quiz</title>
+	<link rel="stylesheet" href="./quiz.css">
+</head>
+
+<body>
+	<!--<h1>JavaScript Quiz</h1>
+<p>Which is the best description of a variable?</p>
+<p>Which is the best description of the substring method?</p>
+<p>Which is the best description of concatenation?</p>
+<p>Which is the best description of an if statement?</p>
+-->
+	<div id="main">
+		<!-- open main div -->
+		<div id="header">
+			<!-- open header div -->
+		<!--	<h1>JavaScript Quiz</h1>-->
+		</div><!-- close header div -->
+
+		<h1 style="text-align:center;">JavaScript Quiz</h1>
+		<form id="form1">
+
+			<h2>Which is the best description of a variable?</h2>
+
+			<label for="var_string"> <input type="checkbox" name="variable" value="0" id="var_string">A Identifies a
+				portion of a string. </label>
+			<label for="var_join"><input type="checkbox" name="variable" value="0" id="var_join">B A method to join
+				strings.</label>
+			<label for="var_info"><input type="checkbox" name="variable" value="25" id="var_info">C Allows you to store
+				information so it can be reused throughout the program</label>
+			<label for="var_condition"><input type="checkbox" name="variable" value="0" id="var_condition">D Allows you
+				to make a decision based on a condition.</label>
+
+			<h2>Which is the best description of the substring method?</h2>
+			<label for="sub_string"><input type="checkbox" name="sub" value="25" id="sub_string">A a portion of a
+				string.</label>
+			<label for="sub_join"><input type="checkbox" name="sub" value="0" id="sub_join">B A method to join
+				strings.</label>
+			<label for="sub_info"><input type="checkbox" name="sub" value="0" id="sub_info">C Allows you to store
+				information so it can be reused throughout the program</label>
+			<label for="sub_condition"><input type="checkbox" name="sub" value="0" id="sub_condition">D Allows you to
+				make a decision based on a condition.</label>
+
+			<h2>Which is the best description of concatenation?</h2>
+			<label for="cat_string"><input type="checkbox" name="con" value="0" id="cat_string">A Identifies a portion
+				of a string.</label>
+			<label for="cat_join"><input type="checkbox" name="con" value="25" id="cat_join">B method to join
+				strings.</label>
+			<label for="cat_info"><input type="checkbox" name="con" value="0" id="cat_info">C Allows you to store
+				information so it can be reused throughout the program</label>
+			<label for="cat_condition"><input type="checkbox" name="con" value="0" id="cat_condition">D Allows you to
+				make a decision based on a condition.</label>
+
+			<h2>Which is the best description of an if statement?</h2>
+			<label for="if_string"><input type="checkbox" name="ifstate" value="0" id="if_string">A a portion of a
+				string.</label>
+			<label for="if_join"><input type="checkbox" name="ifstate" value="0" id="if_join"> B A method to join
+				strings.</label>
+			<label for="if_info"><input type="checkbox" name="ifstate" value="0" id="if_info">C Allows you to store
+				information so it can be reused throughout the program</label>
+			<label for="if_condition"><input type="checkbox" name="ifstate" value="25" id="if_condition">D Allows you to
+				make a decision based on a condition.</label>
+			<!--  <button class="evaluate">Evaluate</button>
+        <button class ="btn" type="submit" value="Submit">Submit </button>-->
+
+			<div class="navigation">
+			<!--	<button class="evaluate">Evaluate</button> -->
+				<button class="submit" value="submit"> Submit</button>
+			</div>
+		</form>
+
+
+
+		<p>Your grade is: <span id="grade">__</span></p>
+		<p id="grade2"></p>
+	</div><!-- close main div -->
+
+	<script src="./quiz.js">
+	</script>
+</body>
+
+</html>
